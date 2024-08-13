@@ -1,0 +1,172 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:onClick="clickchoose"
+    android:orientation="vertical"
+    tools:context=".playActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="260dp"
+
+        android:background="@drawable/background_top"
+
+        android:gravity="center">
+
+        <TextView
+            android:id="@+id/cpt_question"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="-80dp"
+
+            android:layout_marginLeft="-5dp"
+            android:text="1/5"
+            android:textColor="@color/white"
+            android:textSize="25sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/txt_count"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="-200dp"
+
+            android:layout_marginTop="-80dp"
+            android:text="0"
+            android:textColor="@color/white"
+            android:textSize="30sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/text_question"
+            android:layout_width="match_parent"
+            android:layout_height="120dp"
+            android:layout_marginStart="-190dp"
+            android:layout_marginTop="85dp"
+            android:layout_marginEnd="375dp"
+            android:layout_marginBottom="60dp"
+
+
+            android:text="Question"
+            android:textColor="@color/white"
+            android:textSize="25sp"
+            android:textStyle="bold">
+
+        </TextView>
+
+        <ImageView
+            android:id="@+id/image_back"
+            android:layout_width="40dp"
+            android:layout_height="30dp"
+            android:layout_marginLeft="-750dp"
+            android:layout_marginTop="-80dp"
+            app:srcCompat="@drawable/ic_back" />
+
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="252dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="60dp"
+        android:layout_marginRight="10dp"
+        android:orientation="vertical">
+
+        <androidx.appcompat.widget.AppCompatButton
+            android:id="@+id/btn_choose1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginRight="10dp"
+
+            android:background="@drawable/background_btn_lay_colour"
+            android:onClick="ClickChoose"
+            android:text="choose 1"
+
+            android:textAllCaps="false"
+            android:textColor="#020101"
+            android:textSize="25sp" />
+
+        <androidx.appcompat.widget.AppCompatButton
+            android:id="@+id/btn_choose2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginRight="10dp"
+
+            android:background="@drawable/background_btn_lay_colour"
+            android:onClick="ClickChoose"
+            android:text="choose 2"
+
+            android:textAllCaps="false"
+            android:textColor="#020101"
+            android:textSize="25sp" />
+
+        <androidx.appcompat.widget.AppCompatButton
+            android:id="@+id/btn_choose3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginRight="10dp"
+
+            android:background="@drawable/background_btn_lay_colour"
+            android:onClick="ClickChoose"
+            android:text="choose 3"
+
+            android:textAllCaps="false"
+            android:textColor="#020101"
+            android:textSize="25sp" />
+
+        <androidx.appcompat.widget.AppCompatButton
+            android:id="@+id/btn_choose4"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginRight="10dp"
+
+            android:background="@drawable/background_btn_lay_colour"
+            android:onClick="ClickChoose"
+            android:text="choose 4"
+
+            android:textAllCaps="false"
+            android:textColor="#020101"
+            android:textSize="25sp" />
+
+
+    </LinearLayout>
+    <TextView
+        android:id="@+id/text_ans_show"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textStyle="bold"
+        android:textColor="@color/black"
+        android:textSize="20sp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="15dp">
+    </TextView>
+    <Button
+        android:id="@+id/btn_next"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="3dp"
+        android:layout_marginTop="60dp"
+
+        android:layout_marginRight="3dp"
+        android:background="@drawable/background_btn_lay_colour"
+
+        android:text="next"
+        android:textAllCaps="true"
+        android:textColor="#fff"
+        android:textSize="25sp">
+
+
+    </Button>
+</LinearLayout>

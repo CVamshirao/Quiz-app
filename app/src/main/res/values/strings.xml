@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">signuplogin</string>
+    <string name="Exit">exit</string>
+    <string name="Setting">setting</string>
+    <string name="Home">play</string>
+    <string name="quiz_app">quiz app</string>
+    <string name="design">design and developed VAMSHI</string>
+</resources>
